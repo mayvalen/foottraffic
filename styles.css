@@ -1,0 +1,159 @@
+body {
+    color: rgb(0, 0, 0);
+    background-color: rgb(241, 241, 241);
+    font-family: 'Helvetica';
+  }
+
+   /*FLEXBOX*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: auto;
+    position: absolute;
+    z-index: 1;
+    padding-top: .5em;
+  }
+
+  .box {
+    padding-bottom: 2rem;
+  }
+
+  .box1 {
+    min-width: 3em;
+    font-family: 'Courier';
+  }
+
+  .box2 {
+      min-width: 17em;
+      font-size: 2.3em;
+      margin-top: -4px;
+  }
+
+  .box3 {
+    min-width: 30em;
+    font-family: 'Courier';
+  }
+
+  .box4 {
+    min-width: 10em;
+    font-family: 'Courier';
+  }
+
+  .box5 {
+    min-width: 3em;
+    font-family: 'Courier';
+  }
+
+  .box6 {
+    min-width: 17em;
+    font-size: 2.3em;
+
+}
+
+  .box7 {
+    min-width: 30em;
+    font-family: 'Courier';
+  }
+
+
+
+
+
+
+
+     /*BUTTON*/
+.next {
+    position: absolute;
+    z-index: 1;
+    margin-left: 72em;
+    font-family: 'Courier';
+    padding-top: 41em;
+}
+
+     /*MAP*/
+.map {
+    max-width: 15em;
+}
+
+.maps {
+    max-width: 10em;
+}
+
+     /*JOURNAL ENTRIES*/
+.journal {
+    max-width: 8em;
+}
+
+.journal2 {
+    max-width: 8em;
+    margin-left: 1.5em;
+    margin-top: -1em;
+}
+.journal3 {
+    max-width: 8em;
+    margin-top: -1em;
+}
+
+     /*CURSOR*/
+.foot {
+    max-width: 70px;
+}
+
+.cursor {
+    position: absolute;
+    left: 0; 
+    top: 0;
+}
+
+
+     /*RESPECTIVE PAGES*/
+
+      /*PARC*/ 
+.parc-video {
+        margin-left: 30em;
+        margin-top: 23em;
+        position: absolute;
+    }
+
+    .parc-image {
+        max-width: 9em;
+        margin-left: 40em;
+        margin-top: 10em;
+        position: absolute;
+    }
+
+    .parc-image-two {
+        max-width: 10em;
+        margin-left: 50em;
+        margin-top: 15em;
+        position: absolute;
+    }
+    
+      /*BORDER*/ 
+    .border-video {
+        margin-left: 35em;
+        margin-top: 17em;
+        position: absolute;
+    }
+
+      /*METRO*/    
+.metro-image {
+    max-width: 15em;
+    position: absolute;
+    margin-left: 42em;
+    margin-top: 20em;
+}
+
+.metro-video {
+    margin-left: 30em;
+    margin-top: 10em;
+    position: absolute;
+}
+
+.metro-sound {
+    margin-left: 33em;
+    margin-top: 34em;
+    position: absolute;
+   
+}
