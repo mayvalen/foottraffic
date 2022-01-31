@@ -31,7 +31,8 @@ body {
   }
 
   .box3 {
-    min-width: 30em;
+    width: 30em;
+
     font-family: 'Courier';
   }
 
@@ -136,6 +137,36 @@ body {
         margin-top: 17em;
         position: absolute;
     }
+
+     /*MARKET*/ 
+    .market-image {
+    max-width: 30em;
+    margin-left: 30em;
+    margin-top: 15em;
+    position: absolute;
+    }
+
+    .market-sound {
+        margin-left: 50em;
+        margin-top: 30em;
+        position: absolute;
+       
+    }
+
+         /*MONOPRIX*/ 
+    .mono-image {
+    max-width: 15em;
+    margin-left: 30em;
+    margin-top: 13em;
+    position: absolute;
+    }
+
+    .mono-image-two {
+        max-width: 15em;
+        margin-left: 50em;
+        margin-top: 19em;
+        position: absolute;
+        }
 
       /*METRO*/    
 .metro-image {
